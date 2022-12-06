@@ -5,10 +5,22 @@
   "author": "API Team <api@arrogan.gg>",
   "scripts": {},
   "main": "./lib",
-  "keywords": [],
+  "keywords": [
+    "arrogan",
+    "rest",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArroganTech/arrogan-node.git"
+  },
   "engines": {
     "node": ">=6.0"
   },
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "license": "MIT",
   "dependencies": {
     "axios": "^1.2.1"
