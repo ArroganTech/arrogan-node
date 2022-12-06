@@ -1,0 +1,14 @@
+name: Test and Deploy
+on:
+  push:
+    branches: [ '*' ]
+    tags: [ '*' ]
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+       - name: Publish to NPM
+        run: |
+          npm config set //registry.npmjs.org/:_authToken ${secret.NPM_TOKEN}
+          npm publish --ignore-scripts
