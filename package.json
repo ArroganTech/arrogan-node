@@ -1,0 +1,16 @@
+{
+  "name": "arrogan",
+  "description": "A Arrogan helper library",
+  "version": "1.0.0",
+  "author": "API Team <api@arrogan.gg>",
+  "scripts": {},
+  "main": "./lib",
+  "keywords": [],
+  "engines": {
+    "node": ">=6.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.2.1"
+  }
+}
