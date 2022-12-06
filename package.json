@@ -1,7 +1,7 @@
 {
   "name": "arrogan",
   "description": "A Arrogan helper library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "API Team <api@arrogan.gg>",
   "scripts": {},
   "main": "./lib",
